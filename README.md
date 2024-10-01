@@ -25,8 +25,6 @@ Alguns dados interessantes sobre a cidade:
 - **Prefeito:** Caio Cesar Machado da Cunha (PODE, 2021-2024)
 # Arquitetura
 
-![Imagem Pipeline](https://raw.githubusercontent.com/Armanskij/Projeto-Eleicoes-MogidasCruzes-2024/refs/heads/main/assets/Screenshot%202024-09-26%20164906.png)
-![Bandeira da Cidade](https://raw.githubusercontent.com/Armanskij/Projeto-Eleicoes-MogidasCruzes-2024/refs/heads/main/assets/Band_MCruzes.jpg)
 
 ## Sistema Transacional
 
