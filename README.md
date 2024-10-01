@@ -3,13 +3,13 @@
 Projeto de orquestração de pipelines de integrassão de bot do Telegram com a cloud AWS.
 
 Este repositório contém um projeto de orquestração de pipeline de dados entre o Telegram e a AWS, com foco na conversão de dados transacionais em dados analíticos. Utilizamos serviços como AWS S3, AWS Lambda, AWS API Gateway, e AWS EventBridge para processar e analisar dados captados por bots do Telegram.
-# Objetivo do Projeto
+## Objetivo do Projeto
 
 O objetivo deste projeto é transformar dados transacionais gerados por interações com um chatbot no Telegram em dados analíticos. Esse processo possibilita extrair insights valiosos, melhorar o desempenho do chatbot e compreender melhor o comportamento dos usuários. A ingestão, transformação e armazenamento dos dados são realizados de forma automatizada e escalável utilizando os serviços da AWS.
 
-# Contexto
+### Contexto
 
-## Sobre a cidade de Mogi das Cruzes
+#### Sobre a cidade de Mogi das Cruzes
 
 Mogi das Cruzes é um município localizado na região metropolitana de São Paulo, no Brasil, a cerca de 50 km da capital paulista. Fundada em 1560, a cidade é conhecida por sua história rica e cultura diversificada, além de sua economia dinâmica, que abrange desde a agricultura, especialmente o cultivo de hortaliças e flores, até setores industriais e comerciais.
 
