@@ -25,21 +25,19 @@ Alguns dados interessantes sobre a cidade:
 - **Prefeito:** Caio Cesar Machado da Cunha (PODE, 2021-2024)
 # Coleta de dados
 # @title
-display(HTML("""
+HTML("""
 <div style="display: flex; justify-content: space-around;">
-
-    <div style="text-align: center;">
+<div style="text-align: center;">
         <img src="https://raw.githubusercontent.com/Armanskij/Projeto-Eleicoes-MogidasCruzes-2024/refs/heads/main/assets/Band_MCruzes.jpg" width="480" height="300">
         <p>Bandeira de Mogi das Cruzes</p>
     </div>
 
-    <div style="text-align: center;">
+<div style="text-align: center;">
         <img src="https://raw.githubusercontent.com/Armanskij/Projeto-Eleicoes-MogidasCruzes-2024/refs/heads/main/assets/Screenshot%202024-09-26%20164906.png" width="480" height="300">
         <p>Localização da cidade no estado de São Paulo</p>
     </div>
-
 </div>
-"""))
+""")
 
 A base de dados utilizada neste projeto foi extraída do site do Tribunal Superior Eleitoral (TSE) em setembro de 2024. Ela contém informações detalhadas de todos os candidatos que concorrem às Eleições Municipais de 2024 em todo o território nacional. Essa base inclui dados como nome, partido, gênero, idade, cor/raça, escolaridade e ocupação dos candidatos. Embora o TSE também disponibilize outras informações, como bens dos candidatos, coligações e motivos de cassação, este projeto focará exclusivamente nos dados demográficos e gerais dos candidatos, conforme definido pelo escopo. A análise de outras variáveis poderá ser incluída em projetos futuros, proporcionando uma visão ainda mais aprofundada do perfil dos candidatos.
 
