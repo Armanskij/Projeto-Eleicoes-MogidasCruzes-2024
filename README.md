@@ -56,6 +56,8 @@ Para caracterizar adequadamente os candidatos e identificar padrões significati
 - DS_OCUPACAO: Descrição da ocupação do candidato.
 
 ### Análise Descritiva
+
+#### Idade
 ![Pirâmide Etária](https://raw.githubusercontent.com/Armanskij/Projeto-Eleicoes-MogidasCruzes-2024/refs/heads/main/assets/estatistica%20idade.png)
 
 As medidas descritivas da idade dos candidatos revelam uma visão geral interessante sobre o perfil etário.
@@ -64,6 +66,7 @@ Com 397 **candidatos no total**, a **idade média** é de 48,99 anos, o que indi
 
 Os quartis mostram que 25% dos candidatos têm até 42 anos, 50% até 48 anos (mediana), e 75% até 56 anos, o que reflete que a maior parte dos candidatos está na faixa entre os 40 e 60 anos
 
+#### Composição Racial
 ![Composição Racial](https://raw.githubusercontent.com/Armanskij/Projeto-Eleicoes-MogidasCruzes-2024/refs/heads/main/assets/racial.png)
 
 Com base na distribuição de cor/raça, é possível identificar padrões entre a representatividade dos candidatos e a população. Observamos que a cor/raça branca apresenta a maior representatividade, com 54,9% da população e 52,6% dos candidatos. Na segunda posição, estão as pessoas que se autodeclaram pardas, correspondendo a 32,8% da população e 33,3% dos candidatos. Já as pessoas que se autodeclaram pretas, que representam 8,5% da população, compõem 11,8% dos candidatos. Por fim, as pessoas de cor/raça amarela representam 3,7% da população e 2,3% dos candidatos.
@@ -72,12 +75,14 @@ De modo geral, a representatividade dos candidatos reflete de maneira próxima a
 
 Como sugestão para aprimorar essa análise, seria interessante observar o histórico temporal das eleições, a fim de identificar possíveis mudanças. Além disso, seria relevante verificar se houve a implementação de políticas públicas ou programas voltados para esses grupos que possam ter influenciado essa representatividade.
 
+#### Graduação
 ![Escolaridade](https://raw.githubusercontent.com/Armanskij/Projeto-Eleicoes-MogidasCruzes-2024/refs/heads/main/assets/escolaridade.png)
 
 Observamos que o ensino superior é predominante em todos os grupos, o que sugere que a maioria dos candidatos possui uma boa preparação acadêmica para assumir um cargo público. Em relação aos gêneros, o feminino apresenta uma taxa um pouco maior de ensino superior completo em comparação ao masculino, o que pode indicar que mulheres talvez enfrentem diferentes **exigências educacionais** para progredir na política.
 
 Quando analisamos por cor/raça, alguns insights significativos podem ser observados. O mais marcante é o percentual de 77% de candidatos da cor/raça amarela com ensino superior completo, embora seja importante lembrar que eles representam apenas 3% dos candidatos. Outro dado relevante é o percentual de ensino superior completo entre as pessoas das cores/raças preta e parda, 29% e 40%, respectivamente, que são os menores entre os diversos grupos. No entanto, esses mesmos grupos são os que mais possuem ensino médio completo, o que pode sugerir a existência de **barreiras no acesso à educação superior** para essas populações.
 
+#### Perfil dos Partidos
 ![Perfil Partidos](https://raw.githubusercontent.com/Armanskij/Projeto-Eleicoes-MogidasCruzes-2024/refs/heads/main/assets/perfil%20partido.png)
 
 ***Gênero***
