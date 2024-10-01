@@ -23,24 +23,42 @@ Alguns dados interessantes sobre a cidade:
 - **IDH:** 0,783 (*alto*, 60° BR)
 - **PIP:** R$ 15.386.499,31
 - **Prefeito:** Caio Cesar Machado da Cunha (PODE, 2021-2024)
-# Arquitetura
+# Coleta de dados
 
+A base de dados utilizada neste projeto foi extraída do site do Tribunal Superior Eleitoral (TSE) em setembro de 2024. Ela contém informações detalhadas de todos os candidatos que concorrem às Eleições Municipais de 2024 em todo o território nacional. Essa base inclui dados como nome, partido, gênero, idade, cor/raça, escolaridade e ocupação dos candidatos. Embora o TSE também disponibilize outras informações, como bens dos candidatos, coligações e motivos de cassação, este projeto focará exclusivamente nos dados demográficos e gerais dos candidatos, conforme definido pelo escopo. A análise de outras variáveis poderá ser incluída em projetos futuros, proporcionando uma visão ainda mais aprofundada do perfil dos candidatos.
 
-## Sistema Transacional
+Para caracterizar adequadamente os candidatos e identificar padrões significativos entre eles, selecionei dentre um conjunto de mais de 40 variáveis relevantes que possibilitam uma análise aprofundada. Essas variáveis foram escolhidas por sua capacidade de oferecer uma visão abrangente sobre o perfil dos candidatos, permitindo a separação de conjuntos relacionados e a geração de insights valiosos. As variáveis selecionadas incluem:
+- DS_CARGO : Descriçao do cargo do candidato (vereador, vice-prefeito e prefeito)
+- NM_CANDIDATO: Nome completo do candidato
+- NR_PARTIDO: Número do partido do candidato
+- SG_PARTIDO: Sigla do partido do candidato
+- SG_UF_NASCIMENTO: Estado de nascimento do candidato
+- CD_GENERO: Código do gênero do candidato (2:Masculino, 4:Feminino)
+- CD_GRAU_INSTRUCAO: Código do grau de instrução (escolaridade) do candidato, podendo assumir os seguintes valores:
+  - 1: Analfabeto;
+  - 2: Lê e escreve;
+  - 3: Ensino fundamental incompleto;
+  - 4: Ensino fundamental completo;
+  - 5: Ensino médio incompleto;
+  - 6: Ensino médio completo;
+  - 7: Superior incompleto; e
+  - 8: Superior completo.
+- CD_ESTADO_CIVIL: Código do estado civil do candidato.
+- DT_NASCIMENTO: Data de nascimento do candidato.
+- CD_COR_RACA: Código da cor/raça do candidato, podendo assumir os seguintes valores:
+  - 01: Branca;
+  - 02: Preta;
+  - 03: Parda;
+  - 04: Amarela;
+  - 05: Indígena; e
+  - 06: Não Informado.
+- CD_OCUPACAO: Código da ocupação do candidato.
+- DS_OCUPACAO: Descrição da ocupação do candidato.
 
-Neste projeto, o sistema transacional é representado pelo chatbot no Telegram, que captura e envia dados transacionais para a nuvem.
-## Sistema Analítico
+### Análise Descritiva
+![Pirâmide Etária](https://raw.githubusercontent.com/Armanskij/Projeto-Eleicoes-MogidasCruzes-2024/refs/heads/main/assets/etario.png)
 
-O sistema analítico é responsável por transformar os dados transacionais em dados prontos para análise. Ele é dividido em três etapas:
-
-- **Ingestão**: Os dados são captados via webhook da API de bots do Telegram e armazenados no AWS S3 no formato JSON.
-- **ETL (Extração, Transformação e Carregamento)**: Os dados são processados por funções do AWS Lambda, que realizam a limpeza, deduplicação e compressão dos dados, armazenando-os em uma camada enriquecida no AWS S3.
-- **Apresentação**: Os dados processados estão prontos para análise e podem ser acessados para gerar insights e relatórios.
-
-# Justificativa para o Projeto
-
-A necessidade de converter dados transacionais em dados analíticos surge para extrair **insights valiosos**, melhorar o desempenho do chatbot e entender melhor o comportamento dos usuários. Isso permite a otimização contínua das interações do bot e a personalização das respostas com base no comportamento dos usuários.
-
+N
 
 # Ferramentas Utilizadas
 
