@@ -23,7 +23,6 @@ Alguns dados interessantes sobre a cidade:
 - **IDH:** 0,783 (*alto*, 60° BR)
 - **PIP:** R$ 15.386.499,31
 - **Prefeito:** Caio Cesar Machado da Cunha (PODE, 2021-2024)
-# Coleta de dados
 
 <div style="display: flex; justify-content: space-around;">
 <div style="text-align: center;">
@@ -37,6 +36,7 @@ Alguns dados interessantes sobre a cidade:
     </div>
 </div>
 
+# Coleta de dados
 A base de dados utilizada neste projeto foi extraída do site do Tribunal Superior Eleitoral (TSE) em setembro de 2024. Ela contém informações detalhadas de todos os candidatos que concorrem às Eleições Municipais de 2024 em todo o território nacional. Essa base inclui dados como nome, partido, gênero, idade, cor/raça, escolaridade e ocupação dos candidatos. Embora o TSE também disponibilize outras informações, como bens dos candidatos, coligações e motivos de cassação, este projeto focará exclusivamente nos dados demográficos e gerais dos candidatos, conforme definido pelo escopo. A análise de outras variáveis poderá ser incluída em projetos futuros, proporcionando uma visão ainda mais aprofundada do perfil dos candidatos.
 
 Para caracterizar adequadamente os candidatos e identificar padrões significativos entre eles, selecionei dentre um conjunto de mais de 40 variáveis relevantes que possibilitam uma análise aprofundada. Essas variáveis foram escolhidas por sua capacidade de oferecer uma visão abrangente sobre o perfil dos candidatos, permitindo a separação de conjuntos relacionados e a geração de insights valiosos. As variáveis selecionadas incluem:
