@@ -103,13 +103,14 @@ Quando analisamos por cor/raça, alguns insights significativos podem ser observ
 
 
 # Ferramentas Utilizadas
-[![NumPy](https://img.shields.io/badge/NumPy-numerical%20computing-blue.svg)](https://numpy.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-data%20analysis-blue.svg)](https://pandas.pydata.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-data%20visualization-blue.svg)](https://matplotlib.org/)
-[![Seaborn](https://img.shields.io/badge/Seaborn-statistical%20visualization-blue.svg)](https://seaborn.pydata.org/)
-[![Requests](https://img.shields.io/badge/Requests-HTTP%20library-blue.svg)](https://docs.python-requests.org/en/master/)
-[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM%20for%20Python-blue.svg)](https://www.sqlalchemy.org/)
-[![SQLite](https://img.shields.io/badge/SQLite-embedded%20database-blue.svg)](https://www.sqlite.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.24.2-blue.svg)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.0.3-blue.svg)](https://pandas.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7.1-blue.svg)](https://matplotlib.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-0.12.2-blue.svg)](https://seaborn.pydata.org/)
+[![Requests](https://img.shields.io/badge/Requests-2.31.0-blue.svg)](https://docs.python-requests.org/en/master/)
+[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0.10-blue.svg)](https://www.sqlalchemy.org/)
+[![SQLite](https://img.shields.io/badge/SQLite-3.41.2-blue.svg)](https://www.sqlite.org/)
+
 
 
 
