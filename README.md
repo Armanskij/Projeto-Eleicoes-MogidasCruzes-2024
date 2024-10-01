@@ -56,24 +56,61 @@ Para caracterizar adequadamente os candidatos e identificar padrões significati
 - DS_OCUPACAO: Descrição da ocupação do candidato.
 
 ### Análise Descritiva
-![Pirâmide Etária](https://raw.githubusercontent.com/Armanskij/Projeto-Eleicoes-MogidasCruzes-2024/refs/heads/main/assets/etario.png)
+![Pirâmide Etária](https://raw.githubusercontent.com/Armanskij/Projeto-Eleicoes-MogidasCruzes-2024/refs/heads/main/assets/estatistica%20idade.png)
 
-N
+As medidas descritivas da idade dos candidatos revelam uma visão geral interessante sobre o perfil etário.
+
+Com 397 **candidatos no total**, a **idade média** é de 48,99 anos, o que indica que a maioria dos candidatos está na faixa da meia-idade. O **desvio padrão** de 11,18 anos mostra uma dispersão moderada em torno da média, indicando uma variação considerável nas idades. O candidato **mais jovem** tem 18 anos e o **mais velho**, 81 anos.
+
+Os quartis mostram que 25% dos candidatos têm até 42 anos, 50% até 48 anos (mediana), e 75% até 56 anos, o que reflete que a maior parte dos candidatos está na faixa entre os 40 e 60 anos
+
+![Composição Racial](https://raw.githubusercontent.com/Armanskij/Projeto-Eleicoes-MogidasCruzes-2024/refs/heads/main/assets/racial.png)
+
+Com base na distribuição de cor/raça, é possível identificar padrões entre a representatividade dos candidatos e a população. Observamos que a cor/raça branca apresenta a maior representatividade, com 54,9% da população e 52,6% dos candidatos. Na segunda posição, estão as pessoas que se autodeclaram pardas, correspondendo a 32,8% da população e 33,3% dos candidatos. Já as pessoas que se autodeclaram pretas, que representam 8,5% da população, compõem 11,8% dos candidatos. Por fim, as pessoas de cor/raça amarela representam 3,7% da população e 2,3% dos candidatos.
+
+De modo geral, a representatividade dos candidatos reflete de maneira próxima a composição racial da população. No entanto, é interessante notar que as pessoas brancas e amarelas estão ligeiramente sub-representadas entre os candidatos em relação à sua participação na população total, enquanto as pessoas pardas e pretas estão super-representadas. Esse padrão pode sugerir um maior engajamento político entre os grupos de cor/raça parda e preta, ou possivelmente indicar uma demanda maior por políticas públicas voltadas a esses grupos.
+
+Como sugestão para aprimorar essa análise, seria interessante observar o histórico temporal das eleições, a fim de identificar possíveis mudanças. Além disso, seria relevante verificar se houve a implementação de políticas públicas ou programas voltados para esses grupos que possam ter influenciado essa representatividade.
+
+![Escolaridade](https://raw.githubusercontent.com/Armanskij/Projeto-Eleicoes-MogidasCruzes-2024/refs/heads/main/assets/escolaridade.png)
+
+Observamos que o ensino superior é predominante em todos os grupos, o que sugere que a maioria dos candidatos possui uma boa preparação acadêmica para assumir um cargo público. Em relação aos gêneros, o feminino apresenta uma taxa um pouco maior de ensino superior completo em comparação ao masculino, o que pode indicar que mulheres talvez enfrentem diferentes **exigências educacionais** para progredir na política.
+
+Quando analisamos por cor/raça, alguns insights significativos podem ser observados. O mais marcante é o percentual de 77% de candidatos da cor/raça amarela com ensino superior completo, embora seja importante lembrar que eles representam apenas 3% dos candidatos. Outro dado relevante é o percentual de ensino superior completo entre as pessoas das cores/raças preta e parda, 29% e 40%, respectivamente, que são os menores entre os diversos grupos. No entanto, esses mesmos grupos são os que mais possuem ensino médio completo, o que pode sugerir a existência de **barreiras no acesso à educação superior** para essas populações.
+
+![Perfil Partidos](https://raw.githubusercontent.com/Armanskij/Projeto-Eleicoes-MogidasCruzes-2024/refs/heads/main/assets/perfil%20partido.png)
+
+***Gênero***
+
+ - Representação Masculina: O **PSOL se destaca como o partido com a maior proporção de homens, apresentando 70%** de seus membros masculinos. Essa alta representatividade masculina sugere uma predominância no apoio e na liderança masculina dentro da estrutura do partido.
+
+ - Representação Feminina: **O PMB se sobressai com 60% de mulheres**, indicando um compromisso significativo com a inclusão feminina. Isso pode refletir políticas voltadas para a promoção de igualdade de gênero e empoderamento feminino dentro do partido.
+
+***Cor/Raça***
+
+- Raça Branca: **O partido UNIÃO possui a maior representatividade de indivíduos brancos, com 76% de seus membros**. Essa predominância indica uma possível falta de diversidade racial. Por outro lado, partidos como SOLIDARIEDADE e PC do B não têm representantes brancos, o que pode refletir uma abordagem inclusiva ou, alternativamente, uma falta de foco na representação racial.
+
+- Raça Preta: **O PC do B lidera com 50% de representação preta**. Essa alta porcentagem sugere uma significativa inclusão de pessoas negras na política deste partido. Contudo, há uma preocupação, pois partidos como PL, REPUBLICANOS, PV, e MOBILIZA não apresentam nenhum representante da cor/race preta, evidenciando uma falta de diversidade racial.
+
+- Raça Parda: **O partido SOLIDARIEDADE se destaca com 75%** de pardos, o que demonstra uma boa inclusão racial. No entanto, o UNIÃO apresenta apenas 16% de pardos, indicando uma disparidade significativa em comparação a outros partidos.
+
+- Raça Amarela: **O partido PL é o único a ter um percentual de 12% de representantes amarelos**. A ausência de representantes amarelos em partidos como PSD, SOLIDARIEDADE, REPUBLICANOS, PRD, entre outros, sugere uma necessidade de maior inclusão racial.
+
+***Idade Média***
+
+- Idade Média dos Membros: **O PDT tem a maior média de idade entre seus membros, com 54 anos**. Isso pode indicar uma base de apoio mais envelhecida, o que pode influenciar as políticas e a abordagem do partido em relação a questões sociais. Em contraste, o **PRTB possui a menor média de idade, 43 anos**, o que pode sinalizar uma tentativa de atrair uma base mais jovem e progressista.
+
+
 
 # Ferramentas Utilizadas
+[![NumPy](https://img.shields.io/badge/NumPy-numerical%20computing-blue.svg)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-data%20analysis-blue.svg)](https://pandas.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-data%20visualization-blue.svg)](https://matplotlib.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-statistical%20visualization-blue.svg)](https://seaborn.pydata.org/)
+[![Requests](https://img.shields.io/badge/Requests-HTTP%20library-blue.svg)](https://docs.python-requests.org/en/master/)
+[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM%20for%20Python-blue.svg)](https://www.sqlalchemy.org/)
+[![SQLite](https://img.shields.io/badge/SQLite-embedded%20database-blue.svg)](https://www.sqlite.org/)
 
-[![AWS S3](https://img.shields.io/badge/AWS%20S3-Storage-blue.svg)](https://aws.amazon.com/s3/)
-[![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-Compute-blue.svg)](https://aws.amazon.com/lambda/)
-[![AWS API Gateway](https://img.shields.io/badge/AWS%20API%20Gateway-REST%20API-blue.svg)](https://aws.amazon.com/api-gateway/)
-[![AWS EventBridge](https://img.shields.io/badge/AWS%20EventBridge-Event%20Bus-blue.svg)](https://aws.amazon.com/eventbridge/)
-[![Python](https://img.shields.io/badge/Python-3.8-blue.svg)](https://www.python.org/)
-[![Logging](https://img.shields.io/badge/Logging-built--in-blue.svg)](https://docs.python.org/3/library/logging.html)
-[![Datetime](https://img.shields.io/badge/Datetime-built--in-blue.svg)](https://docs.python.org/3/library/datetime.html)
-[![Getpass](https://img.shields.io/badge/Getpass-built--in-blue.svg)](https://docs.python.org/3/library/getpass.html)
-[![Requests](https://img.shields.io/badge/Requests-2.28.1-blue.svg)](https://docs.python-requests.org/)
-[![Boto3](https://img.shields.io/badge/Boto3-1.28.12-blue.svg)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
-[![PyArrow](https://img.shields.io/badge/PyArrow-12.0.0-blue.svg)](https://arrow.apache.org/docs/python/)
-[![PyArrow Parquet](https://img.shields.io/badge/PyArrow_Parquet-12.0.0-blue.svg)](https://arrow.apache.org/docs/python/parquet.html)
 
 
 
