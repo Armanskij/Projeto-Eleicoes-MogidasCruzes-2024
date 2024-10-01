@@ -1,11 +1,8 @@
 # Projeto - Análise dos Candidatos Municipais de Mogi das Cruzes - 2024
 
-Projeto de orquestração de pipelines de integrassão de bot do Telegram com a cloud AWS.
-
-Este repositório contém um projeto de orquestração de pipeline de dados entre o Telegram e a AWS, com foco na conversão de dados transacionais em dados analíticos. Utilizamos serviços como AWS S3, AWS Lambda, AWS API Gateway, e AWS EventBridge para processar e analisar dados captados por bots do Telegram.
 ## Objetivo do Projeto
 
-O objetivo deste projeto é transformar dados transacionais gerados por interações com um chatbot no Telegram em dados analíticos. Esse processo possibilita extrair insights valiosos, melhorar o desempenho do chatbot e compreender melhor o comportamento dos usuários. A ingestão, transformação e armazenamento dos dados são realizados de forma automatizada e escalável utilizando os serviços da AWS.
+O principal objetivo deste projeto é realizar uma análise abrangente dos dados dos candidatos municipais de Mogi das Cruzes para as eleições de 2024. Através da orquestração de um pipeline de dados entre interações de usuários com um chatbot no Telegram e a infraestrutura da AWS, buscamos transformar dados transacionais em dados analíticos. A análise se concentrará na extração de insights sobre o perfil demográfico, escolaridade e representatividade racial e de gênero dos candidatos. Com essas informações, esperamos contribuir para uma compreensão mais profunda do cenário político local, identificar padrões significativos nas características dos candidatos e fomentar discussões sobre inclusão e diversidade na política municipal.
 
 ### Contexto
 
@@ -117,6 +114,10 @@ Quando analisamos por cor/raça, alguns insights significativos podem ser observ
 
 - Idade Média dos Membros: **O PDT tem a maior média de idade entre seus membros, com 54 anos**. Isso pode indicar uma base de apoio mais envelhecida, o que pode influenciar as políticas e a abordagem do partido em relação a questões sociais. Em contraste, o **PRTB possui a menor média de idade, 43 anos**, o que pode sinalizar uma tentativa de atrair uma base mais jovem e progressista.
 
+## Conclusão
+A análise dos candidatos municipais de Mogi das Cruzes em 2024 revelou insights valiosos sobre o perfil dos candidatos, bem como sobre a representatividade de gênero e raça no cenário político local. Observamos uma predominância de candidatos na faixa etária da meia-idade e uma educação formal elevada, com uma significativa participação de candidatos de cor/raça parda e preta em comparação à sua representação na população. Embora alguns partidos demonstrem um compromisso com a inclusão, ainda existem disparidades raciais que indicam a necessidade de um maior foco em diversidade.
+
+Além disso, a estrutura do projeto, que integra dados coletados através de um chatbot no Telegram com serviços da AWS, permitiu a automação e a escalabilidade do processo de análise. Essa abordagem não apenas facilita o processamento de dados, mas também proporciona uma plataforma para futuras análises e aprimoramentos nas interações com os usuários. Com os resultados obtidos, esperamos que este projeto sirva como uma base para debates sobre a evolução da política em Mogi das Cruzes, além de fomentar ações que promovam uma representação mais equitativa e diversificada nas próximas eleições.
 
 
 # Ferramentas Utilizadas
