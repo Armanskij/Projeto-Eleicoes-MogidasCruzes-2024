@@ -24,7 +24,7 @@ Alguns dados interessantes sobre a cidade:
 - **PIP:** R$ 15.386.499,31
 - **Prefeito:** Caio Cesar Machado da Cunha (PODE, 2021-2024)
 # Coleta de dados
-
+# @title
 display(HTML("""
 <div style="display: flex; justify-content: space-around;">
 
