@@ -1,4 +1,7 @@
 # Projeto - Análise dos Candidatos Municipais de Mogi das Cruzes - 2024
+Este projeto tem como objetivo analisar o perfil dos candidatos que concorrem às eleições municipais de 2024 em Mogi das Cruzes, fornecendo uma visão detalhada sobre os dados demográficos, educacionais e ocupacionais dos candidatos. A análise foi realizada utilizando Python, com o suporte de diversas bibliotecas para manipulação, visualização e armazenamento de dados.
+
+O foco da análise é permitir que eleitores, pesquisadores e o público em geral tenham uma compreensão mais clara sobre o perfil dos candidatos, ajudando nas decisões eleitorais de forma mais consciente.
 
 ## Objetivo do Projeto
 O principal objetivo deste projeto é realizar uma análise detalhada dos candidatos municipais de Mogi das Cruzes para as eleições de 2024. Utilizando Python e bibliotecas como Pandas, Matplotlib e Seaborn, buscamos transformar dados transacionais em dados analíticos, permitindo a extração de insights significativos sobre o perfil demográfico, escolaridade e representatividade racial e de gênero dos candidatos. O uso do SQL foi fundamental para facilitar a consulta e a criação das tabelas, garantindo uma manipulação eficiente dos dados. A análise visa oferecer uma visão abrangente do cenário político local, identificando padrões importantes nas características dos candidatos e promovendo uma discussão sobre inclusão e diversidade na política municipal.
