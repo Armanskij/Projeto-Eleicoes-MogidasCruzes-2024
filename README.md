@@ -106,7 +106,7 @@ Quando analisamos por cor/raça, alguns insights significativos podem ser observ
 
 - Raça Branca: **O partido UNIÃO possui a maior representatividade de indivíduos brancos, com 76% de seus membros**. Essa predominância indica uma possível falta de diversidade racial. Por outro lado, partidos como SOLIDARIEDADE e PC do B não têm representantes brancos, o que pode refletir uma abordagem inclusiva ou, alternativamente, uma falta de foco na representação racial.
 
-- Raça Preta: **O PC do B lidera com 50% de representação preta**. Essa alta porcentagem sugere uma significativa inclusão de pessoas negras na política deste partido. Contudo, há uma preocupação, pois partidos como PL, REPUBLICANOS, PV, e MOBILIZA não apresentam nenhum representante da cor/race preta, evidenciando uma falta de diversidade racial.
+- Raça Preta: **O PC do B lidera com 50% de representação preta**. Essa alta porcentagem sugere uma significativa inclusão de pessoas pretas na política deste partido. Contudo, há uma preocupação, pois partidos como PL, REPUBLICANOS, PV, e MOBILIZA não apresentam nenhum representante da cor/race preta, evidenciando uma falta de diversidade racial.
 
 - Raça Parda: **O partido SOLIDARIEDADE se destaca com 75%** de pardos, o que demonstra uma boa inclusão racial. No entanto, o UNIÃO apresenta apenas 16% de pardos, indicando uma disparidade significativa em comparação a outros partidos.
 
