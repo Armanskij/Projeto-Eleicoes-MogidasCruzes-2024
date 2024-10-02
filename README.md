@@ -122,7 +122,7 @@ A análise dos candidatos municipais de Mogi das Cruzes em 2024 proporcionou ins
 A utilização de Python, juntamente com bibliotecas de visualização e manipulação de dados, e o uso de SQL para facilitar a consulta e a criação das tabelas, possibilitaram uma análise aprofundada e eficaz dos dados coletados. Este projeto não só serve como uma base para futuras análises e discussões sobre a evolução da política em Mogi das Cruzes, mas também como um incentivo para ações que promovam uma representação mais equitativa e diversificada nas próximas eleições.
 
 ![Vista do Pico do Urubu](https://raw.githubusercontent.com/Armanskij/Projeto-Eleicoes-MogidasCruzes-2024/refs/heads/main/assets/Vista_de_Mogi_das_Cruzes_a_partir_do_Pico_do_Urubu.JPG)
-Vista da cidade do Pico do Urubu, Mogi das Cruzes/SP, Henrique Boney, 2012.
+*Vista da cidade do Pico do Urubu, Mogi das Cruzes/SP, Henrique Boney, 2012.*
 
 # Ferramentas Utilizadas
 [![NumPy](https://img.shields.io/badge/NumPy-1.24.2-blue.svg)](https://numpy.org/)
